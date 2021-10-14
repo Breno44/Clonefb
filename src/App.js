@@ -22,7 +22,21 @@ function App() {
             <img width="25" height="25" src="/groups.svg" alt="Tela inicial" />
           </div>
         </div>
-        <div className="w-48 h-full"></div>
+        <div className="h-full flex">
+          <div className="bg-gray-200 rounded-full px-5 py-1 text-sm mx-3 my-2">Find Friends</div>
+          <div className="bg-gray-200 rounded-full p-1 mx-3 my-2">
+            <img width="25" height="25" src="/add.svg" alt="" />
+          </div>
+          <div className="bg-gray-200 rounded-full p-1 mx-3 my-2">
+            <img width="25" height="25" src="/chat.svg" alt="" />
+          </div>
+          <div className="bg-gray-200 rounded-full p-1 mx-3 my-2">
+            <img width="25" height="25" src="/noti.svg" alt="" />
+          </div>
+          <div className="bg-gray-200 rounded-full p-1 mx-3 my-2">
+            <img className="rounded-full" src="https://i.pravatar.cc/25" alt="user" />
+          </div>
+        </div>
       </nav>
     </div>
   );
