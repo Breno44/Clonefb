@@ -3,5 +3,22 @@
 @tailwind utilities;
 
 .container {
-  @apply w-screen h-screen flex justify-center items-center min-w-full;
+  @apply w-screen h-screen min-w-full bg-gray-100;
+}
+
+.navbar {
+  @apply w-full shadow-md bg-white fixed flex items-center justify-between;
+}
+
+.containerLogo {
+  @apply bg-gray-100 flex rounded-full py-2 px-2 h-8 w-48;
+}
+
+.searchFacebook {
+  @apply bg-transparent w-full p-2 text-sm;
+  outline: none !important;
+}
+
+.icons {
+  @apply flex justify-center items-center py-3 px-3;
 }
