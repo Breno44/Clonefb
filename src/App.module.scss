@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply w-screen h-screen flex justify-center items-center min-w-full;
+}
