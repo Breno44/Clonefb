@@ -7,7 +7,7 @@
 }
 
 .navbar {
-  @apply w-full shadow-md bg-white flex items-center justify-between;
+  @apply w-full shadow-md bg-white flex items-center justify-between z-50 relative;
 }
 
 .containerLogo {
@@ -21,4 +21,20 @@
 
 .icons {
   @apply flex justify-center items-center py-3 px-3;
+}
+
+.iconsNavbar {
+  @apply bg-gray-200 rounded-full p-1 mx-3 my-2;
+}
+
+.itemsLeft {
+  @apply flex px-3 py-2 items-center hover:bg-gray-200 rounded-lg m-2;
+}
+
+.itemsRight {
+  @apply flex mt-5 items-center hover:bg-gray-200 cursor-pointer;
+}
+
+.itemsComment {
+  @apply flex items-center cursor-pointer hover:bg-gray-100 p-1 rounded-lg;
 }
